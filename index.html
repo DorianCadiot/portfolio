@@ -9,7 +9,6 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
             background-color: #f4f4f4;
         }
         header {
@@ -17,43 +16,75 @@
             color: white;
             padding: 20px;
             font-size: 24px;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             padding: 20px;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         .project {
             margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 5px solid #333;
+            border-radius: 5px;
+        }
+        .project a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .project img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+            margin-top: 10px;
         }
         footer {
             margin-top: 20px;
             padding: 10px;
             background: #333;
             color: white;
+            text-align: center;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>Mon Portfolio</header>
     <div class="container">
-        <h1>Bonjour, je suis [Ton Nom]</h1>
+        <h1>Bonjour, je suis Dorian Cadiot</h1>
         <p>Développeur de jeux vidéo en alternance.</p>
         
         <h2>Mes Projets</h2>
         <div class="project">
-            <h3>Projet 1</h3>
-            <p>Description du projet...</p>
+            <h3>Développement d'un plateformer 2D via Unity</h3>
+            <p>
+                Projet personnel en binôme avec un autre étudiant informatique, découverte de Unity via une super serie tuto, sur Youtube.
+                Cela m'as permis d'apprendre également les bases du C#, ainsi que le fonctionnement d'un moteur de jeu.
+            </p>
+            <a href="#">Voir sur GitLab</a>
+            <br>
+            <img src="https://via.placeholder.com/300" alt="Aperçu du projet">
         </div>
         <div class="project">
             <h3>Projet 2</h3>
             <p>Description du projet...</p>
+            <a href="#">Voir sur GitLab</a>
+            <br>
+            <img src="https://via.placeholder.com/300" alt="Aperçu du projet">
         </div>
         
         <h2>Me Contacter</h2>
-        <p>Email : tonmail@example.com</p>
+        <p>Email : <a href="mailto:tonmail@example.com">tonmail@example.com</a></p>
         <p>LinkedIn : <a href="#">Ton Profil</a></p>
     </div>
     <footer>© 2025 [Ton Nom] - Tous droits réservés</footer>
